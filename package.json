@@ -1,0 +1,14 @@
+{
+  "name": "seq_endpoint",
+  "version": "1.0.0",
+  "description": "random plasmid sequence generator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mcmenemy",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^16.1.0"
+  }
+}
