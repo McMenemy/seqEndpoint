@@ -6,13 +6,6 @@ server.connection({
   port: 8000,
 });
 
-// Add the route
-server.route({
-  method: 'GET',
-  path: '/hello',
-  handler: (request, reply) => reply('hello world'),
-});
-
 // Helper Functions
 function generateRandomData() {
   // generate random sequence
